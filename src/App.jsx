@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import PostCard from "./PostCard"; // ✅ Make sure this file exists
-import "./styles.css"; // ✅ Optional: Only if you created this CSS file
+import PostCard from "../src/Postcard"; // ✅ Make sure this file exists
+
 
 const API_BASE = "https://curd-backend-xjwj.onrender.com";
 
